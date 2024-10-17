@@ -2,6 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+nome_usuario = input("coloque o nome do seu usuario") 
+
 # Rota raiz
 @app.get("/")
 def read_root():
